@@ -5,5 +5,6 @@ function check()
   if( e1.value != e2.value)
     {
       alert("The two IDs dont match");
+      return false;
     }
 }
