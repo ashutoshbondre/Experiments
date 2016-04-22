@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Basic Form</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <form>
+  <fieldset>
+    <legend> Personal Information </legend>
+    <label for='name'>Name</label>
+    <input type='text' id='name' name='name' placeholder='enter your name'>
+    <br>
+    
+    <br>
+    <label> birth</label>
+    <input type='date' id='birth' name='birth'>
+    <br>
+    <input type='submit' value="click to submit">
+  </fieldset>
+  <hr>
+  <fieldset>
+    <label>
+        preferred Email address: 
+      <input type="email" id="email1"
+             value="me@me.com" required>
+    </label>
+    <br>
+    <label>
+      repeat Email address:
+      <input type="email"id="email2"
+             required onchange="check()">
+    </label>
+    <br>
+    <input type="submit" value="confirm Emails">
+  </fieldset>
+</form>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
