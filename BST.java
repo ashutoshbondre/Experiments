@@ -74,13 +74,13 @@ public class BST <Key extends Comparable<Key>, Value>
 		Node x = DeleteMin(root);
 	}
 	
-	private Node DeleteMin(Node x)
+	private Node DeleteMin(Node k)
 	{
-		if(x.left==null)
-			return x.right;
-		x.left = DeleteMin(x.left);
-		x.count = 1+ size(x.left) + size(x.right);
-		return x;
+		if(k.left==null)
+			return k.right;
+		k.left = DeleteMin(k.left);
+		k.count = 1+ size(k.left) + size(k.right);
+		return k;
 	}
 	
 	
