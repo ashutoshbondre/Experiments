@@ -17,8 +17,8 @@ public class BinarySearch {
 		}
 	public static void main(String args[])
 	{
-		int a[] = {42,3,87,0,12,7,5};
-		int ans = Search(a,0);
+		int b[] = {42,3,87,0,12,7,5};
+		int ans = Search(b,0);
 		System.out.println(ans);
 	}
 }
