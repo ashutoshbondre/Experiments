@@ -31,10 +31,10 @@ public class Quick {
         a[j] = swap;
     }
 	
-    public static void sort(Comparable a[])
+    public static void sort(Comparable b[])
     {
-    	StdRandom.shuffle(a);
-    	sort(a,0,a.length-1);
+    	StdRandom.shuffle(b);
+    	sort(b,0,b.length-1);
     }
 	
     public static void sort(Comparable a[],int low,int high)
