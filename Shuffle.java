@@ -6,9 +6,9 @@ public class Shuffle {
 		int N = a.length;
 		for (int i =0; i <N ;i ++)
 		{
-			int r =StdRandom.uniform(i+1);
-			//System.out.print( r +" #");
-			exch(a,i,r);
+			int c =StdRandom.uniform(i+1);
+			//System.out.print( c +" #");
+			exch(a,i,c);
 		}
 		
 	}
