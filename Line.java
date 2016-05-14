@@ -3,8 +3,8 @@ public class Line {
 	public double slope;
 	public double yintercept;
 	
-	public Line(double s, double y) {
-		slope = s;
+	public Line(double sl, double y) {
+		slope = sl;
 		yintercept = y;
 	}
 	
