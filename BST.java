@@ -31,9 +31,9 @@ public class BST <Key extends Comparable<Key>, Value>
 	}
 	
 	
-	public void put(Key key,Value val)
+	public void put(Key key,Value value)
 	{
-		root = put(root,key,val);
+		root = put(root,key,value);
 	}
 		
 	private Node put(Node x, Key key,Value val)
