@@ -4,6 +4,6 @@ int mod(int a, int b)
 	{
 	  return -1;
 	}
-  int div = a/b;
+  int division = a/b;
   return a-div*b;
 } 
