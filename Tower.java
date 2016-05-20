@@ -4,10 +4,10 @@ class Tower
 {
 	private Stack<Integer> disks;
 	private int index;
-	public Tower(int i)
+	public Tower(int num)
 	{
 		disks=new Stack<Integer>();
-		index=i;
+		index=num;
 	}
 
 
