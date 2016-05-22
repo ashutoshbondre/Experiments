@@ -7,9 +7,9 @@ class TreeNode
 	public TreeNode right;
 	private int size=0;
 	
-	public TreeNode(int d)
+	public TreeNode(int dat)
 	{
-		this.data=d;
+		this.data=dat;
 		size=1;
 	}
 }
