@@ -10,8 +10,8 @@ public class SecondHighest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = {12,150,43,54,100,200};
-		Shigh(a);
+		int arr[] = {12,150,43,54,100,200};
+		Shigh(arr);
 
 	}
 
