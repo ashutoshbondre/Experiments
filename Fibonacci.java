@@ -1,8 +1,7 @@
 public void Fibonacci(int n)
 {
 	int[] memo = new int[n+1];
-	for(int i=0;i<n;i++)
-	{
+	for(int i=0;i<n;i++){
 		system.out.println(i + ": " + fib(i,memo));
 	}
 }
