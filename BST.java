@@ -9,10 +9,10 @@ public class BST <Key extends Comparable<Key>, Value>
 		private Node left;
 		private Node right;
 		
-		public Node(Key key, Value val)
+		public Node(Key key, Value valu)
 		{
 			this.key=key;
-			this.val=val;
+			this.val=valu;
 		}
 		
 	}
