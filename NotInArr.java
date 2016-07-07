@@ -31,9 +31,9 @@ public class NotInArr {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = {1,2,7,4,5};
-		int b[] = {2,3,1,0,5};
-		NotDupes(a,b);
+		int arr[] = {1,2,7,4,5};
+		int brr[] = {2,3,1,0,5};
+		NotDupes(arr,brr);
 	}
 
 }
