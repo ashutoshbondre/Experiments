@@ -7,13 +7,13 @@ public class PalindromeNum {
 		int x =cal(n);
 		return (x==n);
 	}
-		public static int cal(int n)
+		public static int cal(int m)
 		{
-			if(n/10==0) return n;
-		int quo=n/10;
+			if(m/10==0) return m;
+		int quo=m/10;
 		int c=quo;
 		//System.out.print(c);
-		int remaining = n%10;
+		int remaining = m%10;
 		while (quo!=0)
 		{
 			 quo = quo/10;
