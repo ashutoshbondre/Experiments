@@ -23,11 +23,11 @@ public class InsertionSort {
 					//}
 				//}
 			//}
-		public static void exch(Comparable a[],int i ,int j)
+		public static void exch(Comparable b[],int i ,int j)
 		{
-			Comparable temp = a[i];
-			a[i]=a[j];
-			a[j]=temp;
+			Comparable temp = b[i];
+			b[i]=b[j];
+			b[j]=temp;
 		}
 		
 		public static boolean less(Comparable a,Comparable b)
